@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
 }
+
 /* common  */
 .display-hide {
   display: none;
@@ -153,7 +154,7 @@ img {
 }
 
 .plants-left img {
-  width: 540px;
+  max-width: 540px;
   height: 597px;
 }
 .badge {
@@ -343,11 +344,48 @@ img {
   text-align: left;
   padding: 8px 20px;
 }
-
+/* footer Section */
+.footer-section {
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+.footer-container {
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: start;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 25px;
+}
+.logo {
+  width: 135px;
+  height: 82px;
+  margin-bottom: 16px;
+}
+.footer-container p {
+  width: 359px;
+}
+.footer-container ul li {
+  list-style: none;
+}
+.footer-container ul {
+  display: grid;
+  gap: 30px;
+}
+.footer-container ul li a {
+  text-decoration: none;
+}
+.icon {
+  gap: 20px;
+  align-items: center;
+}
 @media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
   .nav-bar {
     display: flex;
-    margin: 30px 16px;
+    margin: 30px 20px;
   }
   .menu {
     display: none;
@@ -359,11 +397,12 @@ img {
   .banner-content,
   .Plants,
   .deals {
-    margin: 0 16px;
+    margin: 0 20px;
   }
   .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 16px;
   }
   .plants-love {
     margin-top: 20px;
@@ -388,7 +427,7 @@ img {
       "items-1"
       "items-2"
       "items-3";
-    margin: 0 16px;
+    margin: 0 auto;
   }
   .card-3 {
     height: 206px;
@@ -416,5 +455,11 @@ img {
   }
   .join-title {
     font-size: 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 16px;
   }
 }
