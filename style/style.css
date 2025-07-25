@@ -55,8 +55,21 @@ img {
   line-height: 24px;
 }
 .link-shop,
+.link-home,
 .link-about {
   color: rgb(137, 135, 161);
+}
+.link-home:hover {
+  font-weight: bold;
+  color: black;
+}
+.link-about:hover {
+  color: black;
+  font-weight: bold;
+}
+.link-shop:hover {
+  color: black;
+  font-weight: bold;
 }
 .menu-container {
   gap: 50px;
@@ -64,10 +77,7 @@ img {
 .menu {
   gap: 48px;
 }
-.link-home {
-  font-weight: bold;
-  color: black;
-}
+
 .cart-container {
   gap: 10px;
 }
@@ -93,6 +103,7 @@ img {
 .banner-image {
   max-width: 570px;
 }
+
 /* Our Plants */
 .plants {
   margin-top: 120px;
@@ -143,6 +154,9 @@ img {
   letter-spacing: 0%;
   border: none;
   width: 100%;
+}
+.btn:hover {
+  background-color: rgba(40, 155, 12, 0.952);
 }
 /* Plants Lover Section */
 .plants-love {
@@ -423,6 +437,9 @@ img {
   .plants-love-container {
     flex-direction: column;
     margin-left: 16px;
+  }
+  .btn:hover {
+    background-color: rgba(40, 155, 12, 0.952);
   }
   .plants-right h1 {
     font-size: 40px;
