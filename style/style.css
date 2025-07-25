@@ -422,9 +422,13 @@ img {
     margin-top: 28px;
   }
   .banner-content,
-  .Plants,
-  .deals {
+  .Plants {
     margin: 0 20px;
+  }
+  .deals {
+    margin-top: 140px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .card-container {
     display: grid;
