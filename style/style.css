@@ -164,6 +164,19 @@ img {
   top: -130px;
   left: 400px;
   filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.664));
+  animation: spin 3s linear infinite;
+  transform-origin: center center;
+  animation: spin 7s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .plants-right {
@@ -452,7 +465,8 @@ img {
   }
   .join-container {
     height: 273px;
-    width: 321px;
+
+    margin: 0 auto;
   }
   .join-title {
     font-size: 20px;
