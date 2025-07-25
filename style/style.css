@@ -472,8 +472,8 @@ img {
     line-height: 27px;
   }
   .join {
+    margin-top: 255px;
     height: 200px;
-    margin: 255px auto auto auto;
   }
   .input-container {
     width: 321px;
