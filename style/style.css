@@ -452,9 +452,11 @@ img {
   }
   .join-container {
     height: 273px;
+    width: 321px;
   }
   .join-title {
     font-size: 20px;
+    font-weight: bold;
   }
 
   .footer-container {
